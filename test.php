@@ -6,6 +6,6 @@ $r = 1;
 
 while ($i < $v) {
     $i++;
-    $r *= ($i + 1);
+    $r *= ($i);
 }
 echo ("The factorial of " . $i . " " . $question . "= " . $r . "\n");
